@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Lovers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-contents">
+            <h1>Movie Lovers</h1>
+        </div>
+    </header>
+    <main>
+        <div class="main-search-field">
+            <label aria-label="Sök efter film" class="hide">Sök film namn</label>
+            <input type="text" for="submit" id="searchInput" placeholder="Sök efter film">
+            <button type="submit" value="Submit" id="searchBtn">Sök</button>
+        </div>
+
+        <div class="main-contents" id="moviesList">
+            <div id="movielist-default-container"></div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
